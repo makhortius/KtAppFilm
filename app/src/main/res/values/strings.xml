@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">KtAppFilm</string>
+    <string name="app_name">Выбери фильм</string>
+    <string name="title_home">Домой</string>
+    <string name="title_dashboard">Сортировка</string>
+    <string name="title_notifications">Справка</string>
 </resources>

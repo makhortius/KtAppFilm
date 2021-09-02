@@ -16,13 +16,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        counter = findViewById(R.id.button1)
-
-        counter.setOnClickListener(object: View.OnClickListener{
-            override fun onClick(v: View?) {
-                Toast.makeText(this@MainActivity, "Привет привет!", Toast.LENGTH_LONG).show()
-            }
-
-        })
     }
 }
